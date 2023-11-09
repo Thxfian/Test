@@ -231,7 +231,7 @@ int main()
 		delete pBMobil;
 		pBMobil = nullptr;
 	}
-   
+    //tiaag jj  'agkah
 	system("pause");
 	return 0;
 }
