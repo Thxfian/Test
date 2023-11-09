@@ -14,7 +14,7 @@
 // 
 // 	Calculate* pCal = CalCulateFactory::CreatCalculate(symbol);
 // 	if (pCal != nullptr)
-// 	{
+// 	{ 
 // 		pCal->SetFirstNum(firNum);
 // 		pCal->SetSecondNum(secNum);
 // 		double res = pCal->DoCalculate();
