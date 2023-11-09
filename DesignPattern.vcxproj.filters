@@ -1,0 +1,426 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="2、策略模式">
+      <UniqueIdentifier>{6f31e71b-7c1b-43a8-af95-76883f663702}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1、简单工厂模式">
+      <UniqueIdentifier>{0fd76b55-6779-492e-88ea-875c96786e7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3、装饰模式">
+      <UniqueIdentifier>{00fecb72-4ac3-4099-8ff2-c2b44c67924c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3、装饰模式\面向对象实现">
+      <UniqueIdentifier>{dcaee9e7-acd8-4807-bb4e-f39f4302dd7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3、装饰模式\装饰模式实现">
+      <UniqueIdentifier>{fa65a983-eb63-4e78-8209-7f18b03a04ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="4、代理模式">
+      <UniqueIdentifier>{4bdf3dc1-160a-4be4-95eb-fb48a7952743}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="5、工厂方法模式">
+      <UniqueIdentifier>{dba9b56b-cb82-4d43-a871-c0301ea04699}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="6、原型模式">
+      <UniqueIdentifier>{5fa7c631-569b-4abe-9394-f77b3f5ef08c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="7、外观模式">
+      <UniqueIdentifier>{a3568388-c401-48a2-b064-6e4a67153986}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="8、观察者模式">
+      <UniqueIdentifier>{b5fad782-5949-4b12-8417-ec01c51a53a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="9、抽象工厂模式">
+      <UniqueIdentifier>{e7d601a2-e880-4311-b554-cf4033d6ba3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="10、状态模式">
+      <UniqueIdentifier>{d74f325a-0147-4988-a3e1-7f244ab19c64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="11、适配器模式">
+      <UniqueIdentifier>{8522fbe1-eb03-4b05-8024-562bdb133777}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="12、单例模式">
+      <UniqueIdentifier>{d7e91999-2397-40f8-84dc-e45fe747058c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="13、桥模式">
+      <UniqueIdentifier>{557a811a-abfe-4150-a65d-df1d1f9bdd35}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PersonOld.cpp">
+      <Filter>3、装饰模式\面向对象实现</Filter>
+    </ClCompile>
+    <ClCompile Include="Decorator.cpp">
+      <Filter>3、装饰模式\装饰模式实现</Filter>
+    </ClCompile>
+    <ClCompile Include="DecoratorGame.cpp">
+      <Filter>3、装饰模式\装饰模式实现</Filter>
+    </ClCompile>
+    <ClCompile Include="DecoratorSport.cpp">
+      <Filter>3、装饰模式\装饰模式实现</Filter>
+    </ClCompile>
+    <ClCompile Include="Person.cpp">
+      <Filter>3、装饰模式\装饰模式实现</Filter>
+    </ClCompile>
+    <ClCompile Include="Student.cpp">
+      <Filter>3、装饰模式\装饰模式实现</Filter>
+    </ClCompile>
+    <ClCompile Include="Worker.cpp">
+      <Filter>3、装饰模式\装饰模式实现</Filter>
+    </ClCompile>
+    <ClCompile Include="AddCal.cpp">
+      <Filter>1、简单工厂模式</Filter>
+    </ClCompile>
+    <ClCompile Include="Calculate.cpp">
+      <Filter>1、简单工厂模式</Filter>
+    </ClCompile>
+    <ClCompile Include="CalCulateFactory.cpp">
+      <Filter>1、简单工厂模式</Filter>
+    </ClCompile>
+    <ClCompile Include="DivCal.cpp">
+      <Filter>1、简单工厂模式</Filter>
+    </ClCompile>
+    <ClCompile Include="MulCal.cpp">
+      <Filter>1、简单工厂模式</Filter>
+    </ClCompile>
+    <ClCompile Include="SubCal.cpp">
+      <Filter>1、简单工厂模式</Filter>
+    </ClCompile>
+    <ClCompile Include="CashCalculate.cpp">
+      <Filter>2、策略模式</Filter>
+    </ClCompile>
+    <ClCompile Include="CashNormalCal.cpp">
+      <Filter>2、策略模式</Filter>
+    </ClCompile>
+    <ClCompile Include="CashOffCal.cpp">
+      <Filter>2、策略模式</Filter>
+    </ClCompile>
+    <ClCompile Include="CashReturnCal.cpp">
+      <Filter>2、策略模式</Filter>
+    </ClCompile>
+    <ClCompile Include="CashStrategy.cpp">
+      <Filter>2、策略模式</Filter>
+    </ClCompile>
+    <ClCompile Include="GiveGift.cpp">
+      <Filter>4、代理模式</Filter>
+    </ClCompile>
+    <ClCompile Include="Proxy.cpp">
+      <Filter>4、代理模式</Filter>
+    </ClCompile>
+    <ClCompile Include="Pursite.cpp">
+      <Filter>4、代理模式</Filter>
+    </ClCompile>
+    <ClCompile Include="SchoolGirl.cpp">
+      <Filter>4、代理模式</Filter>
+    </ClCompile>
+    <ClCompile Include="AddFactory.cpp">
+      <Filter>5、工厂方法模式</Filter>
+    </ClCompile>
+    <ClCompile Include="DivFactory.cpp">
+      <Filter>5、工厂方法模式</Filter>
+    </ClCompile>
+    <ClCompile Include="IFactory.cpp">
+      <Filter>5、工厂方法模式</Filter>
+    </ClCompile>
+    <ClCompile Include="MulFactory.cpp">
+      <Filter>5、工厂方法模式</Filter>
+    </ClCompile>
+    <ClCompile Include="SubFactory.cpp">
+      <Filter>5、工厂方法模式</Filter>
+    </ClCompile>
+    <ClCompile Include="Resume.cpp">
+      <Filter>6、原型模式</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkExperience.cpp">
+      <Filter>6、原型模式</Filter>
+    </ClCompile>
+    <ClCompile Include="MethodOne.cpp">
+      <Filter>7、外观模式</Filter>
+    </ClCompile>
+    <ClCompile Include="MethodThree.cpp">
+      <Filter>7、外观模式</Filter>
+    </ClCompile>
+    <ClCompile Include="MethodTwo.cpp">
+      <Filter>7、外观模式</Filter>
+    </ClCompile>
+    <ClCompile Include="Facade.cpp">
+      <Filter>7、外观模式</Filter>
+    </ClCompile>
+    <ClCompile Include="BossSubject.cpp">
+      <Filter>8、观察者模式</Filter>
+    </ClCompile>
+    <ClCompile Include="NBAObserver.cpp">
+      <Filter>8、观察者模式</Filter>
+    </ClCompile>
+    <ClCompile Include="Observer.cpp">
+      <Filter>8、观察者模式</Filter>
+    </ClCompile>
+    <ClCompile Include="Subject.cpp">
+      <Filter>8、观察者模式</Filter>
+    </ClCompile>
+    <ClCompile Include="AccessFactory.cpp">
+      <Filter>9、抽象工厂模式</Filter>
+    </ClCompile>
+    <ClCompile Include="AccessUser.cpp">
+      <Filter>9、抽象工厂模式</Filter>
+    </ClCompile>
+    <ClCompile Include="IServerFactory.cpp">
+      <Filter>9、抽象工厂模式</Filter>
+    </ClCompile>
+    <ClCompile Include="IUser.cpp">
+      <Filter>9、抽象工厂模式</Filter>
+    </ClCompile>
+    <ClCompile Include="SQLServerFactory.cpp">
+      <Filter>9、抽象工厂模式</Filter>
+    </ClCompile>
+    <ClCompile Include="SqlServerUser.cpp">
+      <Filter>9、抽象工厂模式</Filter>
+    </ClCompile>
+    <ClCompile Include="User.cpp">
+      <Filter>9、抽象工厂模式</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MorningState.cpp">
+      <Filter>10、状态模式</Filter>
+    </ClCompile>
+    <ClCompile Include="NoonState.cpp">
+      <Filter>10、状态模式</Filter>
+    </ClCompile>
+    <ClCompile Include="State.cpp">
+      <Filter>10、状态模式</Filter>
+    </ClCompile>
+    <ClCompile Include="Work.cpp">
+      <Filter>10、状态模式</Filter>
+    </ClCompile>
+    <ClCompile Include="Adaptee.cpp">
+      <Filter>11、适配器模式</Filter>
+    </ClCompile>
+    <ClCompile Include="Adapter.cpp">
+      <Filter>11、适配器模式</Filter>
+    </ClCompile>
+    <ClCompile Include="Target.cpp">
+      <Filter>11、适配器模式</Filter>
+    </ClCompile>
+    <ClCompile Include="AMobileBrand.cpp">
+      <Filter>13、桥模式</Filter>
+    </ClCompile>
+    <ClCompile Include="BMobileBrand.cpp">
+      <Filter>13、桥模式</Filter>
+    </ClCompile>
+    <ClCompile Include="GameProduct.cpp">
+      <Filter>13、桥模式</Filter>
+    </ClCompile>
+    <ClCompile Include="IMobileBrand.cpp">
+      <Filter>13、桥模式</Filter>
+    </ClCompile>
+    <ClCompile Include="IProduct.cpp">
+      <Filter>13、桥模式</Filter>
+    </ClCompile>
+    <ClCompile Include="MusicProduct.cpp">
+      <Filter>13、桥模式</Filter>
+    </ClCompile>
+    <ClCompile Include="PhotoProduct.cpp">
+      <Filter>13、桥模式</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="PersonOld.h">
+      <Filter>3、装饰模式\面向对象实现</Filter>
+    </ClInclude>
+    <ClInclude Include="Decorator.h">
+      <Filter>3、装饰模式\装饰模式实现</Filter>
+    </ClInclude>
+    <ClInclude Include="DecoratorGame.h">
+      <Filter>3、装饰模式\装饰模式实现</Filter>
+    </ClInclude>
+    <ClInclude Include="DecoratorSport.h">
+      <Filter>3、装饰模式\装饰模式实现</Filter>
+    </ClInclude>
+    <ClInclude Include="Person.h">
+      <Filter>3、装饰模式\装饰模式实现</Filter>
+    </ClInclude>
+    <ClInclude Include="Student.h">
+      <Filter>3、装饰模式\装饰模式实现</Filter>
+    </ClInclude>
+    <ClInclude Include="Worker.h">
+      <Filter>3、装饰模式\装饰模式实现</Filter>
+    </ClInclude>
+    <ClInclude Include="AddCal.h">
+      <Filter>1、简单工厂模式</Filter>
+    </ClInclude>
+    <ClInclude Include="Calculate.h">
+      <Filter>1、简单工厂模式</Filter>
+    </ClInclude>
+    <ClInclude Include="CalCulateFactory.h">
+      <Filter>1、简单工厂模式</Filter>
+    </ClInclude>
+    <ClInclude Include="DivCal.h">
+      <Filter>1、简单工厂模式</Filter>
+    </ClInclude>
+    <ClInclude Include="MulCal.h">
+      <Filter>1、简单工厂模式</Filter>
+    </ClInclude>
+    <ClInclude Include="SubCal.h">
+      <Filter>1、简单工厂模式</Filter>
+    </ClInclude>
+    <ClInclude Include="CashCalculate.h">
+      <Filter>2、策略模式</Filter>
+    </ClInclude>
+    <ClInclude Include="CashNormalCal.h">
+      <Filter>2、策略模式</Filter>
+    </ClInclude>
+    <ClInclude Include="CashOffCal.h">
+      <Filter>2、策略模式</Filter>
+    </ClInclude>
+    <ClInclude Include="CashReturnCal.h">
+      <Filter>2、策略模式</Filter>
+    </ClInclude>
+    <ClInclude Include="CashStrategy.h">
+      <Filter>2、策略模式</Filter>
+    </ClInclude>
+    <ClInclude Include="GiveGift.h">
+      <Filter>4、代理模式</Filter>
+    </ClInclude>
+    <ClInclude Include="Proxy.h">
+      <Filter>4、代理模式</Filter>
+    </ClInclude>
+    <ClInclude Include="Pursite.h">
+      <Filter>4、代理模式</Filter>
+    </ClInclude>
+    <ClInclude Include="SchoolGirl.h">
+      <Filter>4、代理模式</Filter>
+    </ClInclude>
+    <ClInclude Include="AddFactory.h">
+      <Filter>5、工厂方法模式</Filter>
+    </ClInclude>
+    <ClInclude Include="DivFactory.h">
+      <Filter>5、工厂方法模式</Filter>
+    </ClInclude>
+    <ClInclude Include="IFactory.h">
+      <Filter>5、工厂方法模式</Filter>
+    </ClInclude>
+    <ClInclude Include="MulFactory.h">
+      <Filter>5、工厂方法模式</Filter>
+    </ClInclude>
+    <ClInclude Include="SubFactory.h">
+      <Filter>5、工厂方法模式</Filter>
+    </ClInclude>
+    <ClInclude Include="Resume.h">
+      <Filter>6、原型模式</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkExperience.h">
+      <Filter>6、原型模式</Filter>
+    </ClInclude>
+    <ClInclude Include="MethodTwo.h">
+      <Filter>7、外观模式</Filter>
+    </ClInclude>
+    <ClInclude Include="MethodThree.h">
+      <Filter>7、外观模式</Filter>
+    </ClInclude>
+    <ClInclude Include="MethodOne.h">
+      <Filter>7、外观模式</Filter>
+    </ClInclude>
+    <ClInclude Include="Facade.h">
+      <Filter>7、外观模式</Filter>
+    </ClInclude>
+    <ClInclude Include="BossSubject.h">
+      <Filter>8、观察者模式</Filter>
+    </ClInclude>
+    <ClInclude Include="NBAObserver.h">
+      <Filter>8、观察者模式</Filter>
+    </ClInclude>
+    <ClInclude Include="Observer.h">
+      <Filter>8、观察者模式</Filter>
+    </ClInclude>
+    <ClInclude Include="Subject.h">
+      <Filter>8、观察者模式</Filter>
+    </ClInclude>
+    <ClInclude Include="AccessFactory.h">
+      <Filter>9、抽象工厂模式</Filter>
+    </ClInclude>
+    <ClInclude Include="AccessUser.h">
+      <Filter>9、抽象工厂模式</Filter>
+    </ClInclude>
+    <ClInclude Include="IServerFactory.h">
+      <Filter>9、抽象工厂模式</Filter>
+    </ClInclude>
+    <ClInclude Include="SQLServerFactory.h">
+      <Filter>9、抽象工厂模式</Filter>
+    </ClInclude>
+    <ClInclude Include="IUser.h">
+      <Filter>9、抽象工厂模式</Filter>
+    </ClInclude>
+    <ClInclude Include="SqlServerUser.h">
+      <Filter>9、抽象工厂模式</Filter>
+    </ClInclude>
+    <ClInclude Include="User.h">
+      <Filter>9、抽象工厂模式</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MorningState.h">
+      <Filter>10、状态模式</Filter>
+    </ClInclude>
+    <ClInclude Include="NoonState.h">
+      <Filter>10、状态模式</Filter>
+    </ClInclude>
+    <ClInclude Include="State.h">
+      <Filter>10、状态模式</Filter>
+    </ClInclude>
+    <ClInclude Include="Work.h">
+      <Filter>10、状态模式</Filter>
+    </ClInclude>
+    <ClInclude Include="DesignPatternDef.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Adaptee.h">
+      <Filter>11、适配器模式</Filter>
+    </ClInclude>
+    <ClInclude Include="Adapter.h">
+      <Filter>11、适配器模式</Filter>
+    </ClInclude>
+    <ClInclude Include="Target.h">
+      <Filter>11、适配器模式</Filter>
+    </ClInclude>
+    <ClInclude Include="AMobileBrand.h">
+      <Filter>13、桥模式</Filter>
+    </ClInclude>
+    <ClInclude Include="BMobileBrand.h">
+      <Filter>13、桥模式</Filter>
+    </ClInclude>
+    <ClInclude Include="GameProduct.h">
+      <Filter>13、桥模式</Filter>
+    </ClInclude>
+    <ClInclude Include="IMobileBrand.h">
+      <Filter>13、桥模式</Filter>
+    </ClInclude>
+    <ClInclude Include="MusicProduct.h">
+      <Filter>13、桥模式</Filter>
+    </ClInclude>
+    <ClInclude Include="IProduct.h">
+      <Filter>13、桥模式</Filter>
+    </ClInclude>
+    <ClInclude Include="PhotoProduct.h">
+      <Filter>13、桥模式</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

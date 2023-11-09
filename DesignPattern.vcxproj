@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{a4eb4803-1225-40cc-8162-43b99cbdf2a7}</ProjectGuid>
+    <RootNamespace>DesignPattern</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="AccessFactory.cpp" />
+    <ClCompile Include="AccessUser.cpp" />
+    <ClCompile Include="Adaptee.cpp" />
+    <ClCompile Include="Adapter.cpp" />
+    <ClCompile Include="AddCal.cpp" />
+    <ClCompile Include="AddFactory.cpp" />
+    <ClCompile Include="AMobileBrand.cpp" />
+    <ClCompile Include="BMobileBrand.cpp" />
+    <ClCompile Include="BossSubject.cpp" />
+    <ClCompile Include="Calculate.cpp" />
+    <ClCompile Include="CalCulateFactory.cpp" />
+    <ClCompile Include="CashCalculate.cpp" />
+    <ClCompile Include="CashNormalCal.cpp" />
+    <ClCompile Include="CashOffCal.cpp" />
+    <ClCompile Include="CashReturnCal.cpp" />
+    <ClCompile Include="CashStrategy.cpp" />
+    <ClCompile Include="Decorator.cpp" />
+    <ClCompile Include="DecoratorGame.cpp" />
+    <ClCompile Include="DecoratorSport.cpp" />
+    <ClCompile Include="DivCal.cpp" />
+    <ClCompile Include="DivFactory.cpp" />
+    <ClCompile Include="Facade.cpp" />
+    <ClCompile Include="GameProduct.cpp" />
+    <ClCompile Include="GiveGift.cpp" />
+    <ClCompile Include="IFactory.cpp" />
+    <ClCompile Include="IMobileBrand.cpp" />
+    <ClCompile Include="IProduct.cpp" />
+    <ClCompile Include="IServerFactory.cpp" />
+    <ClCompile Include="IUser.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="MethodOne.cpp" />
+    <ClCompile Include="MethodThree.cpp" />
+    <ClCompile Include="MethodTwo.cpp" />
+    <ClCompile Include="MorningState.cpp" />
+    <ClCompile Include="MulCal.cpp" />
+    <ClCompile Include="MulFactory.cpp" />
+    <ClCompile Include="MusicProduct.cpp" />
+    <ClCompile Include="NBAObserver.cpp" />
+    <ClCompile Include="NoonState.cpp" />
+    <ClCompile Include="Observer.cpp" />
+    <ClCompile Include="Person.cpp" />
+    <ClCompile Include="PersonOld.cpp" />
+    <ClCompile Include="PhotoProduct.cpp" />
+    <ClCompile Include="Proxy.cpp" />
+    <ClCompile Include="Pursite.cpp" />
+    <ClCompile Include="Resume.cpp" />
+    <ClCompile Include="SchoolGirl.cpp" />
+    <ClCompile Include="SQLServerFactory.cpp" />
+    <ClCompile Include="SqlServerUser.cpp" />
+    <ClCompile Include="State.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Student.cpp" />
+    <ClCompile Include="SubCal.cpp" />
+    <ClCompile Include="SubFactory.cpp" />
+    <ClCompile Include="Subject.cpp" />
+    <ClCompile Include="Target.cpp" />
+    <ClCompile Include="User.cpp" />
+    <ClCompile Include="Work.cpp" />
+    <ClCompile Include="Worker.cpp" />
+    <ClCompile Include="WorkExperience.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AccessFactory.h" />
+    <ClInclude Include="AccessUser.h" />
+    <ClInclude Include="Adaptee.h" />
+    <ClInclude Include="Adapter.h" />
+    <ClInclude Include="AddCal.h" />
+    <ClInclude Include="AddFactory.h" />
+    <ClInclude Include="AMobileBrand.h" />
+    <ClInclude Include="BMobileBrand.h" />
+    <ClInclude Include="BossSubject.h" />
+    <ClInclude Include="Calculate.h" />
+    <ClInclude Include="CalCulateFactory.h" />
+    <ClInclude Include="CashCalculate.h" />
+    <ClInclude Include="CashNormalCal.h" />
+    <ClInclude Include="CashOffCal.h" />
+    <ClInclude Include="CashReturnCal.h" />
+    <ClInclude Include="CashStrategy.h" />
+    <ClInclude Include="Decorator.h" />
+    <ClInclude Include="DecoratorGame.h" />
+    <ClInclude Include="DecoratorSport.h" />
+    <ClInclude Include="DesignPatternDef.h" />
+    <ClInclude Include="DivCal.h" />
+    <ClInclude Include="DivFactory.h" />
+    <ClInclude Include="Facade.h" />
+    <ClInclude Include="GameProduct.h" />
+    <ClInclude Include="GiveGift.h" />
+    <ClInclude Include="IFactory.h" />
+    <ClInclude Include="IMobileBrand.h" />
+    <ClInclude Include="IProduct.h" />
+    <ClInclude Include="IServerFactory.h" />
+    <ClInclude Include="IUser.h" />
+    <ClInclude Include="MethodOne.h" />
+    <ClInclude Include="MethodThree.h" />
+    <ClInclude Include="MethodTwo.h" />
+    <ClInclude Include="MorningState.h" />
+    <ClInclude Include="MulCal.h" />
+    <ClInclude Include="MulFactory.h" />
+    <ClInclude Include="MusicProduct.h" />
+    <ClInclude Include="NBAObserver.h" />
+    <ClInclude Include="NoonState.h" />
+    <ClInclude Include="Observer.h" />
+    <ClInclude Include="Person.h" />
+    <ClInclude Include="PersonOld.h" />
+    <ClInclude Include="PhotoProduct.h" />
+    <ClInclude Include="Proxy.h" />
+    <ClInclude Include="Pursite.h" />
+    <ClInclude Include="Resume.h" />
+    <ClInclude Include="SchoolGirl.h" />
+    <ClInclude Include="SQLServerFactory.h" />
+    <ClInclude Include="SqlServerUser.h" />
+    <ClInclude Include="State.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="Student.h" />
+    <ClInclude Include="SubCal.h" />
+    <ClInclude Include="SubFactory.h" />
+    <ClInclude Include="Subject.h" />
+    <ClInclude Include="Target.h" />
+    <ClInclude Include="User.h" />
+    <ClInclude Include="Work.h" />
+    <ClInclude Include="Worker.h" />
+    <ClInclude Include="WorkExperience.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
